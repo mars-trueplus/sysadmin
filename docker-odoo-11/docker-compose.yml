@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+	db:
+    image: postgres
+  web:
+    build: .
+    ports:
+      - "8070:8070"
+    depends_on:
+      - db
