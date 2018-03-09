@@ -16,4 +16,17 @@ services:
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
     command: ["-u", "go_inside"]
+  web2:
+    image: odoo:11.0
+    depends_on:
+      - db
+    ports:
+      - "8095:8069"
+    volumes:
+      # if you mount two directories to same path on container
+      # it will get last mount 
+      # below, it take ./log/odoo_v2 to /etc/odoo , ignore ./config/odoo_11_v2
+      - ./config/odoo_11_v2:/etc/odoo
+      - ./addons/odoo_11_v2:/mnt/extra-addons
+      # - ./log/odoo_v2:/etc/odoo/
   
