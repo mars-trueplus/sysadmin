@@ -15,3 +15,4 @@ services:
     volumes:
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
+    command: ["-u", "go_inside"]
