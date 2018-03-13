@@ -1,0 +1,19 @@
+version: "3"
+services:
+  voli:
+    image: postgres:9.4
+    environment:
+      - POSTGRES_USER=multi_od_1
+      - POSTGRES_PASSWORD=multi_od_1
+      # - POSTGRES_USER=odoo
+      # - POSTGRES_PASSWORD=odoo
+  multi_odoo1:
+    image: odoo:11.0
+    depends_on:
+      - voli
+    ports:
+      - "8090:8069"
+    volumes:
+      - ./config/odoo_11_v2:/etc/odoo
+      - ./addons/odoo_11_v2:/mnt/extra-addons
+  
