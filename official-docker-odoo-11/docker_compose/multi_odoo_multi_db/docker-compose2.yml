@@ -3,8 +3,8 @@ services:
   db:
     image: postgres:9.4
     environment:
-      - POSTGRES_USER=odoo
-      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=nofeo
+      - POSTGRES_PASSWORD=nofeo
   web:
     # build . mean build and get created image for this service use Dockerfile in it
     image: odoo:11.0
@@ -13,7 +13,6 @@ services:
     ports: 
       - "8090:8069"
     volumes:
-      # provide access privilege for odoo.log file on host machine so u can write to log file 
       - ../../config/single_odoo:/etc/odoo
       - ../../addons/single_odoo:/mnt/extra-addons
     # update addons command

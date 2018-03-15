@@ -1,0 +1,29 @@
+abc ahihi
+2018-03-15 01:07:45,442 1 INFO ? odoo: Odoo version 11.0-20180122
+2018-03-15 01:07:45,443 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2018-03-15 01:07:45,443 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/11.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons']
+2018-03-15 01:07:45,443 1 INFO ? odoo: database: odoo@db:5432
+2018-03-15 01:07:45,452 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-03-15 01:07:45,522 1 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-03-15 01:09:10,580 1 INFO ? odoo.http: HTTP Configuring static files
+2018-03-15 01:09:10,616 1 INFO ? odoo.http: Generating nondb routing
+2018-03-15 01:09:10,627 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:09:10] "GET / HTTP/1.1" 200 -
+2018-03-15 01:09:10,704 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:09:10] "GET /web HTTP/1.1" 303 -
+2018-03-15 01:09:10,981 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:09:10] "GET /web/database/selector HTTP/1.1" 200 -
+2018-03-15 01:09:11,043 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:09:11] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 -
+2018-03-15 01:09:19,320 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:09:19] "GET /web HTTP/1.1" 303 -
+2018-03-15 01:09:19,376 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:09:19] "GET /web/database/selector HTTP/1.1" 200 -
+2018-03-15 01:13:31,207 1 INFO ? odoo.service.server: Initiating shutdown
+2018-03-15 01:13:31,207 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-03-15 01:14:00,980 1 INFO ? odoo: Odoo version 11.0-20180122
+2018-03-15 01:14:00,980 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2018-03-15 01:14:00,980 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/11.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons']
+2018-03-15 01:14:00,980 1 INFO ? odoo: database: odoo@db:5432
+2018-03-15 01:14:00,992 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-03-15 01:14:01,085 1 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-03-15 01:14:06,347 1 INFO ? odoo.http: HTTP Configuring static files
+2018-03-15 01:14:06,366 1 INFO ? odoo.http: Generating nondb routing
+2018-03-15 01:14:06,468 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:14:06] "GET /web/database/selector HTTP/1.1" 200 -
+2018-03-15 01:14:06,719 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:14:06] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-03-15 01:14:16,531 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:14:16] "GET /web/database/selector HTTP/1.1" 200 -
+2018-03-15 01:14:16,820 1 INFO ? werkzeug: 172.20.0.1 - - [15/Mar/2018 01:14:16] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
