@@ -1,0 +1,8 @@
+2018-03-15 03:21:32,521 1 INFO ? odoo: Odoo version 11.0-20180122
+2018-03-15 03:21:32,521 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2018-03-15 03:21:32,522 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/11.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons']
+2018-03-15 03:21:32,522 1 INFO ? odoo: database: odoo@db:5432
+2018-03-15 03:21:32,529 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-03-15 03:21:32,597 1 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-03-15 03:21:44,271 1 INFO ? odoo.service.server: Initiating shutdown
+2018-03-15 03:21:44,272 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.

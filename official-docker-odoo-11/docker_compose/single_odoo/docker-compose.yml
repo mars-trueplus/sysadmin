@@ -13,7 +13,7 @@ services:
     ports: 
       - "8090:8069"
     volumes:
-      # provide access privilege for odoo.log file on host machine so u can write to log file 
+      # to use log file, create odoo.log and set full privilege ( chmod 777) for it in host machine
       - ../../config/single_odoo:/etc/odoo
       - ../../addons/single_odoo:/mnt/extra-addons
     # update addons command
