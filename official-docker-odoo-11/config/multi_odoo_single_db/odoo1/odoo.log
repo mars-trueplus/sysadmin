@@ -1,0 +1,869 @@
+2018-03-15 08:50:51,808 1 INFO ? odoo.http: HTTP Configuring static files
+2018-03-15 08:50:51,816 1 INFO ? odoo.http: Generating nondb routing
+2018-03-15 08:50:51,827 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:50:51] "GET / HTTP/1.1" 200 -
+2018-03-15 08:50:51,952 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:50:51] "GET /web HTTP/1.1" 303 -
+2018-03-15 08:50:52,028 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections to 'dbname=8095_db1 user=odoo password=xxxx host=172.17.0.2 port=5432 sslmode=prefer'
+2018-03-15 08:50:52,037 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections to 'dbname=wtf_man user=odoo password=xxxx host=172.17.0.2 port=5432 sslmode=prefer'
+2018-03-15 08:50:52,062 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:50:52] "GET /web/database/selector HTTP/1.1" 200 -
+2018-03-15 08:50:52,305 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:50:52] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-03-15 08:50:54,726 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections to 'dbname=8095_db1 user=odoo password=xxxx host=172.17.0.2 port=5432 sslmode=prefer'
+2018-03-15 08:50:54,731 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections to 'dbname=wtf_man user=odoo password=xxxx host=172.17.0.2 port=5432 sslmode=prefer'
+2018-03-15 08:50:54,733 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:50:54] "GET /web/database/manager HTTP/1.1" 200 -
+2018-03-15 08:51:13,167 1 INFO None odoo.service.db: Create database `8096_con_co`.
+2018-03-15 08:51:15,778 1 INFO 8096_con_co odoo.modules.loading: loading 1 modules...
+2018-03-15 08:51:15,884 1 INFO 8096_con_co odoo.modules.registry: module base: creating or updating database tables
+2018-03-15 08:51:18,566 1 INFO 8096_con_co odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-03-15 08:51:25,529 1 INFO 8096_con_co odoo.models: Computing parent left and right for table res_partner_category...
+2018-03-15 08:51:28,539 1 INFO 8096_con_co odoo.models: Storing computed values of ir.actions.server.model_name
+2018-03-15 08:51:28,714 1 INFO 8096_con_co odoo.models: Storing computed values of ir.attachment.res_name
+2018-03-15 08:51:28,758 1 INFO 8096_con_co odoo.models: Storing computed values of ir.cron.cron_name
+2018-03-15 08:51:28,898 1 INFO 8096_con_co odoo.models: Storing computed values of ir.rule.global
+2018-03-15 08:51:29,146 1 INFO 8096_con_co odoo.models: Storing computed values of ir.module.module.menus_by_module
+2018-03-15 08:51:29,148 1 INFO 8096_con_co odoo.models: Storing computed values of ir.module.module.reports_by_module
+2018-03-15 08:51:29,149 1 INFO 8096_con_co odoo.models: Storing computed values of ir.module.module.views_by_module
+2018-03-15 08:51:29,559 1 INFO 8096_con_co odoo.models: Storing computed values of res.partner.display_name
+2018-03-15 08:51:29,576 1 INFO 8096_con_co odoo.models: Storing computed values of res.partner.partner_share
+2018-03-15 08:51:29,580 1 INFO 8096_con_co odoo.models: Storing computed values of res.partner.commercial_partner_id
+2018-03-15 08:51:29,582 1 INFO 8096_con_co odoo.models: Storing computed values of res.partner.commercial_partner_country_id
+2018-03-15 08:51:29,583 1 INFO 8096_con_co odoo.models: Storing computed values of res.partner.commercial_company_name
+2018-03-15 08:51:29,653 1 INFO 8096_con_co odoo.models: Storing computed values of res.partner.bank.sanitized_acc_number
+2018-03-15 08:51:29,827 1 INFO 8096_con_co odoo.models: Storing computed values of res.company.logo_web
+2018-03-15 08:51:29,836 1 INFO 8096_con_co odoo.models: Storing computed values of res.company.email
+2018-03-15 08:51:29,837 1 INFO 8096_con_co odoo.models: Storing computed values of res.company.phone
+2018-03-15 08:51:30,013 1 INFO 8096_con_co odoo.models: Storing computed values of res.users.share
+2018-03-15 08:51:30,346 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res.lang.csv
+2018-03-15 08:51:30,905 1 INFO 8096_con_co odoo.modules.loading: loading base/base_data.xml
+2018-03-15 08:51:31,163 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_currency_data.xml
+2018-03-15 08:51:31,621 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_country_data.xml
+2018-03-15 08:51:34,152 1 INFO 8096_con_co odoo.modules.loading: loading base/security/base_security.xml
+2018-03-15 08:51:34,497 1 INFO 8096_con_co odoo.modules.loading: loading base/base_menu.xml
+2018-03-15 08:51:34,669 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_config.xml
+2018-03-15 08:51:34,704 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res.country.state.csv
+2018-03-15 08:51:36,782 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_actions.xml
+2018-03-15 08:51:37,178 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_config_parameter_view.xml
+2018-03-15 08:51:37,248 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_cron_view.xml
+2018-03-15 08:51:37,350 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_filters.xml
+2018-03-15 08:51:37,473 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_mail_server_view.xml
+2018-03-15 08:51:37,544 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_model_view.xml
+2018-03-15 08:51:38,025 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_attachment_view.xml
+2018-03-15 08:51:38,121 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_rule_view.xml
+2018-03-15 08:51:38,213 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_sequence_view.xml
+2018-03-15 08:51:38,303 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_translation_view.xml
+2018-03-15 08:51:38,406 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_ui_menu_view.xml
+2018-03-15 08:51:38,487 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_ui_view_view.xml
+2018-03-15 08:51:38,650 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_default_view.xml
+2018-03-15 08:51:38,728 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_autovacuum.xml
+2018-03-15 08:51:38,754 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_model_report.xml
+2018-03-15 08:51:38,766 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/report_ir_model.xml
+2018-03-15 08:51:38,794 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_logging_view.xml
+2018-03-15 08:51:38,881 1 INFO 8096_con_co odoo.modules.loading: loading base/ir/ir_qweb.xml
+2018-03-15 08:51:38,931 1 INFO 8096_con_co odoo.modules.loading: loading base/module/module_view.xml
+2018-03-15 08:51:39,124 1 INFO 8096_con_co odoo.modules.loading: loading base/module/module_data.xml
+2018-03-15 08:51:39,301 1 INFO 8096_con_co odoo.modules.loading: loading base/module/module_report.xml
+2018-03-15 08:51:39,309 1 INFO 8096_con_co odoo.modules.loading: loading base/module/report/report_ir_module_reference.xml
+2018-03-15 08:51:39,336 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_module_update_view.xml
+2018-03-15 08:51:39,372 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_language_install_view.xml
+2018-03-15 08:51:39,419 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_import_language_view.xml
+2018-03-15 08:51:39,454 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_module_upgrade_view.xml
+2018-03-15 08:51:39,516 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_module_uninstall_view.xml
+2018-03-15 08:51:39,548 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_export_language_view.xml
+2018-03-15 08:51:39,595 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_update_translations_view.xml
+2018-03-15 08:51:39,626 1 INFO 8096_con_co odoo.modules.loading: loading base/module/wizard/base_module_immediate_install.xml
+2018-03-15 08:51:39,639 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_company_view.xml
+2018-03-15 08:51:39,790 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_request_view.xml
+2018-03-15 08:51:39,859 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_lang_view.xml
+2018-03-15 08:51:39,997 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_partner_view.xml
+2018-03-15 08:51:40,366 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_bank_view.xml
+2018-03-15 08:51:40,483 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_country_view.xml
+2018-03-15 08:51:40,632 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_currency_view.xml
+2018-03-15 08:51:40,843 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_users_view.xml
+2018-03-15 08:51:41,328 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_partner_data.xml
+2018-03-15 08:51:41,399 1 INFO 8096_con_co odoo.modules.loading: loading base/res/ir_property_view.xml
+2018-03-15 08:51:41,474 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_config_settings_views.xml
+2018-03-15 08:51:41,504 1 INFO 8096_con_co odoo.modules.loading: loading base/res/res_security.xml
+2018-03-15 08:51:41,558 1 INFO 8096_con_co odoo.modules.loading: loading base/res/report_paperformat_views.xml
+2018-03-15 08:51:41,637 1 INFO 8096_con_co odoo.modules.loading: loading base/security/ir.model.access.csv
+2018-03-15 08:51:44,453 1 INFO 8096_con_co odoo.modules.loading: 1 modules loaded in 28.67s, 0 queries
+2018-03-15 08:51:44,498 1 INFO 8096_con_co odoo.modules.loading: updating modules list
+2018-03-15 08:51:44,498 1 INFO 8096_con_co odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user admin #1 via 172.17.0.1
+2018-03-15 08:51:45,131 1 INFO 8096_con_co odoo.modules.loading: loading 11 modules...
+2018-03-15 08:51:45,248 1 INFO 8096_con_co odoo.modules.registry: module auth_crypt: creating or updating database tables
+2018-03-15 08:51:45,262 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:51:45,918 1 INFO 8096_con_co odoo.modules.registry: module web: creating or updating database tables
+2018-03-15 08:51:46,402 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:51:46,937 1 INFO 8096_con_co odoo.modules.loading: loading web/views/webclient_templates.xml
+2018-03-15 08:51:47,339 1 INFO 8096_con_co odoo.modules.loading: loading web/views/report_templates.xml
+2018-03-15 08:51:48,048 1 INFO 8096_con_co odoo.modules.registry: module base_import: creating or updating database tables
+2018-03-15 08:51:49,454 1 INFO 8096_con_co odoo.modules.loading: loading base_import/security/ir.model.access.csv
+2018-03-15 08:51:49,679 1 INFO 8096_con_co odoo.modules.loading: loading base_import/views/base_import_templates.xml
+2018-03-15 08:51:49,810 1 INFO 8096_con_co odoo.modules.registry: module iap: creating or updating database tables
+2018-03-15 08:51:49,951 1 INFO 8096_con_co odoo.modules.loading: loading iap/security/ir.model.access.csv
+2018-03-15 08:51:49,994 1 INFO 8096_con_co odoo.modules.loading: loading iap/security/ir_rule.xml
+2018-03-15 08:51:50,015 1 INFO 8096_con_co odoo.modules.loading: loading iap/views/assets.xml
+2018-03-15 08:51:50,049 1 INFO 8096_con_co odoo.modules.loading: loading iap/views/iap_views.xml
+2018-03-15 08:51:50,241 1 INFO 8096_con_co odoo.modules.registry: module web_diagram: creating or updating database tables
+2018-03-15 08:51:50,250 1 INFO 8096_con_co odoo.modules.loading: loading web_diagram/views/web_diagram_templates.xml
+2018-03-15 08:51:50,474 1 INFO 8096_con_co odoo.modules.registry: module web_editor: creating or updating database tables
+2018-03-15 08:51:50,852 1 INFO 8096_con_co odoo.modules.loading: loading web_editor/security/ir.model.access.csv
+2018-03-15 08:51:50,900 1 INFO 8096_con_co odoo.modules.loading: loading web_editor/views/editor.xml
+2018-03-15 08:51:51,170 1 INFO 8096_con_co odoo.modules.loading: loading web_editor/views/iframe.xml
+2018-03-15 08:51:51,212 1 INFO 8096_con_co odoo.modules.loading: loading web_editor/views/snippets.xml
+2018-03-15 08:51:51,484 1 INFO 8096_con_co odoo.modules.registry: module web_kanban_gauge: creating or updating database tables
+2018-03-15 08:51:51,498 1 INFO 8096_con_co odoo.modules.loading: loading web_kanban_gauge/views/web_kanban_gauge_templates.xml
+2018-03-15 08:51:51,675 1 INFO 8096_con_co odoo.modules.registry: module web_planner: creating or updating database tables
+2018-03-15 08:51:51,819 1 INFO 8096_con_co odoo.modules.loading: loading web_planner/security/ir.model.access.csv
+2018-03-15 08:51:51,872 1 INFO 8096_con_co odoo.modules.loading: loading web_planner/security/web_planner_security.xml
+2018-03-15 08:51:51,907 1 INFO 8096_con_co odoo.modules.loading: loading web_planner/views/web_planner_templates.xml
+2018-03-15 08:51:52,050 1 INFO 8096_con_co odoo.modules.loading: loading web_planner/views/web_planner_views.xml
+2018-03-15 08:51:52,424 1 INFO 8096_con_co odoo.modules.registry: module web_tour: creating or updating database tables
+2018-03-15 08:51:52,557 1 INFO 8096_con_co odoo.modules.loading: loading web_tour/security/ir.model.access.csv
+2018-03-15 08:51:52,576 1 INFO 8096_con_co odoo.modules.loading: loading web_tour/views/tour_templates.xml
+2018-03-15 08:51:52,654 1 INFO 8096_con_co odoo.modules.loading: loading web_tour/views/tour_views.xml
+2018-03-15 08:51:52,859 1 INFO 8096_con_co odoo.modules.registry: module web_settings_dashboard: creating or updating database tables
+2018-03-15 08:51:52,864 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:51:52,897 1 INFO 8096_con_co odoo.modules.loading: loading web_settings_dashboard/views/dashboard_views.xml
+2018-03-15 08:51:52,915 1 INFO 8096_con_co odoo.modules.loading: loading web_settings_dashboard/views/dashboard_templates.xml
+2018-03-15 08:51:53,029 1 INFO 8096_con_co odoo.modules.loading: 11 modules loaded in 7.82s, 0 queries
+2018-03-15 08:51:53,232 1 INFO 8096_con_co odoo.modules.loading: Modules loaded.
+2018-03-15 08:51:53,236 1 INFO 8096_con_co odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-03-15 08:51:53,393 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:53] "POST /web/database/create HTTP/1.1" 303 -
+2018-03-15 08:51:53,397 1 INFO 8096_con_co odoo.addons.base.ir.ir_http: Generating routing map
+2018-03-15 08:51:57,209 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "GET /web/ HTTP/1.1" 200 -
+2018-03-15 08:51:57,558 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "GET /web/webclient/qweb?mods=web,base,base_import,iap,web_diagram,web_editor,web_kanban_gauge,web_planner,web_settings_dashboard,web_tour HTTP/1.1" 200 -
+2018-03-15 08:51:57,650 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:51:57,685 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:51:57,734 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 08:51:57,758 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-03-15 08:51:57,760 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "GET /web/binary/company_logo?db=8096_con_co&company=1 HTTP/1.1" 200 -
+2018-03-15 08:51:57,783 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-03-15 08:51:57,849 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:51:57,985 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:57] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
+2018-03-15 08:51:58,051 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:51:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:52:03,250 1 INFO 8096_con_co odoo.addons.base.module.module: ALLOW access to module.button_immediate_install on ['point_of_sale'] to user admin #1 via 172.17.0.1
+2018-03-15 08:52:03,250 1 INFO 8096_con_co odoo.addons.base.module.module: User #1 triggered module installation
+2018-03-15 08:52:03,250 1 INFO 8096_con_co odoo.addons.base.module.module: ALLOW access to module.button_install on ['point_of_sale'] to user admin #1 via 172.17.0.1
+2018-03-15 08:52:03,501 1 INFO 8096_con_co odoo.modules.loading: loading 1 modules...
+2018-03-15 08:52:03,512 1 INFO 8096_con_co odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-03-15 08:52:03,609 1 INFO 8096_con_co odoo.modules.loading: updating modules list
+2018-03-15 08:52:03,611 1 INFO 8096_con_co odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user admin #1 via 172.17.0.1
+2018-03-15 08:52:04,103 1 INFO 8096_con_co odoo.modules.loading: loading 11 modules...
+2018-03-15 08:52:04,145 1 INFO 8096_con_co odoo.modules.loading: 11 modules loaded in 0.04s, 0 queries
+2018-03-15 08:52:04,157 1 INFO 8096_con_co odoo.modules.loading: loading 30 modules...
+2018-03-15 08:52:04,191 1 INFO 8096_con_co odoo.modules.registry: module decimal_precision: creating or updating database tables
+2018-03-15 08:52:04,661 1 INFO 8096_con_co odoo.modules.loading: loading decimal_precision/views/decimal_precision_views.xml
+2018-03-15 08:52:04,705 1 INFO 8096_con_co odoo.modules.loading: loading decimal_precision/security/ir.model.access.csv
+2018-03-15 08:52:04,809 1 INFO 8096_con_co odoo.modules.registry: module barcodes: creating or updating database tables
+2018-03-15 08:52:05,077 1 INFO 8096_con_co odoo.modules.loading: loading barcodes/data/barcodes_data.xml
+2018-03-15 08:52:05,109 1 INFO 8096_con_co odoo.modules.loading: loading barcodes/views/barcodes_view.xml
+2018-03-15 08:52:05,160 1 INFO 8096_con_co odoo.modules.loading: loading barcodes/security/ir.model.access.csv
+2018-03-15 08:52:05,195 1 INFO 8096_con_co odoo.modules.loading: loading barcodes/views/barcodes_templates.xml
+2018-03-15 08:52:05,382 1 INFO 8096_con_co odoo.modules.registry: module base_setup: creating or updating database tables
+2018-03-15 08:52:05,441 1 INFO 8096_con_co odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml
+2018-03-15 08:52:05,493 1 INFO 8096_con_co odoo.modules.loading: loading base_setup/views/res_partner_views.xml
+2018-03-15 08:52:05,604 1 INFO 8096_con_co odoo.modules.registry: module bus: creating or updating database tables
+2018-03-15 08:52:06,014 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:06,109 1 INFO 8096_con_co odoo.modules.loading: loading bus/views/bus.xml
+2018-03-15 08:52:06,149 1 INFO 8096_con_co odoo.modules.loading: loading bus/security/ir.model.access.csv
+2018-03-15 08:52:06,267 1 INFO 8096_con_co odoo.modules.registry: module http_routing: creating or updating database tables
+2018-03-15 08:52:06,277 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:52:06] "GET /web/static/src/img/spin.png HTTP/1.1" 200 -
+2018-03-15 08:52:06,564 1 INFO 8096_con_co odoo.modules.registry: module mail: creating or updating database tables
+2018-03-15 08:52:10,749 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:13,127 1 INFO 8096_con_co odoo.models: Storing computed values of mail.activity.res_model
+2018-03-15 08:52:13,128 1 INFO 8096_con_co odoo.models: Storing computed values of mail.activity.res_name
+2018-03-15 08:52:13,406 1 INFO 8096_con_co odoo.models: Storing computed values of mail.template.model
+2018-03-15 08:52:13,487 1 INFO 8096_con_co odoo.models: Storing computed values of res.partner.activity_date_deadline
+2018-03-15 08:52:13,803 1 INFO 8096_con_co odoo.models: Storing computed values of email_template.preview.model
+2018-03-15 08:52:13,953 1 INFO 8096_con_co odoo.modules.loading: loading mail/wizard/invite_view.xml
+2018-03-15 08:52:13,981 1 INFO 8096_con_co odoo.modules.loading: loading mail/wizard/mail_compose_message_view.xml
+2018-03-15 08:52:14,023 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml
+2018-03-15 08:52:14,079 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_tracking_views.xml
+2018-03-15 08:52:14,133 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_message_views.xml
+2018-03-15 08:52:14,229 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_mail_views.xml
+2018-03-15 08:52:14,313 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_followers_views.xml
+2018-03-15 08:52:14,361 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_channel_views.xml
+2018-03-15 08:52:14,532 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_shortcode_views.xml
+2018-03-15 08:52:14,580 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_activity_views.xml
+2018-03-15 08:52:14,704 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/res_config_settings_views.xml
+2018-03-15 08:52:14,747 1 INFO 8096_con_co odoo.modules.loading: loading mail/data/mail_data.xml
+2018-03-15 08:52:14,828 1 INFO 8096_con_co odoo.modules.loading: loading mail/data/mail_channel_data.xml
+2018-03-15 08:52:14,944 1 INFO 8096_con_co odoo.modules.loading: loading mail/data/mail_shortcode_data.xml
+2018-03-15 08:52:15,016 1 INFO 8096_con_co odoo.modules.loading: loading mail/data/mail_activity_data.xml
+2018-03-15 08:52:15,028 1 INFO 8096_con_co odoo.modules.loading: loading mail/security/mail_security.xml
+2018-03-15 08:52:15,095 1 INFO 8096_con_co odoo.modules.loading: loading mail/security/ir.model.access.csv
+2018-03-15 08:52:15,524 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_alias_views.xml
+2018-03-15 08:52:15,593 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/res_users_views.xml
+2018-03-15 08:52:15,677 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_templates.xml
+2018-03-15 08:52:15,829 1 INFO 8096_con_co odoo.modules.loading: loading mail/wizard/email_template_preview_view.xml
+2018-03-15 08:52:15,857 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/mail_template_views.xml
+2018-03-15 08:52:15,926 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/ir_actions_views.xml
+2018-03-15 08:52:15,967 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/ir_model_views.xml
+2018-03-15 08:52:16,115 1 INFO 8096_con_co odoo.modules.loading: loading mail/views/res_partner_views.xml
+2018-03-15 08:52:16,810 1 INFO 8096_con_co odoo.modules.registry: module analytic: creating or updating database tables
+2018-03-15 08:52:18,048 1 INFO 8096_con_co odoo.models: Storing computed values of account.analytic.line.company_id
+2018-03-15 08:52:18,084 1 INFO 8096_con_co odoo.modules.loading: loading analytic/security/analytic_security.xml
+2018-03-15 08:52:18,185 1 INFO 8096_con_co odoo.modules.loading: loading analytic/security/ir.model.access.csv
+2018-03-15 08:52:18,220 1 INFO 8096_con_co odoo.modules.loading: loading analytic/views/analytic_account_views.xml
+2018-03-15 08:52:18,651 1 INFO 8096_con_co odoo.modules.registry: module auth_signup: creating or updating database tables
+2018-03-15 08:52:18,679 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:18,766 1 INFO 8096_con_co odoo.modules.loading: loading auth_signup/data/auth_signup_data.xml
+2018-03-15 08:52:18,924 1 INFO 8096_con_co odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml
+2018-03-15 08:52:18,972 1 INFO 8096_con_co odoo.modules.loading: loading auth_signup/views/res_users_views.xml
+2018-03-15 08:52:19,019 1 INFO 8096_con_co odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml
+2018-03-15 08:52:19,104 1 INFO 8096_con_co odoo.modules.loading: loading auth_signup/views/auth_signup_assets.xml
+2018-03-15 08:52:19,317 1 INFO 8096_con_co odoo.modules.registry: module fetchmail: creating or updating database tables
+2018-03-15 08:52:19,629 1 INFO 8096_con_co odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml
+2018-03-15 08:52:19,654 1 INFO 8096_con_co odoo.modules.loading: loading fetchmail/security/ir.model.access.csv
+2018-03-15 08:52:19,667 1 INFO 8096_con_co odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml
+2018-03-15 08:52:19,752 1 INFO 8096_con_co odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml
+2018-03-15 08:52:19,795 1 INFO 8096_con_co odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml
+2018-03-15 08:52:19,991 1 INFO 8096_con_co odoo.modules.registry: module portal: creating or updating database tables
+2018-03-15 08:52:20,266 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:20,455 1 INFO 8096_con_co odoo.modules.loading: loading portal/data/portal_data.xml
+2018-03-15 08:52:20,476 1 INFO 8096_con_co odoo.modules.loading: loading portal/views/assets.xml
+2018-03-15 08:52:20,536 1 INFO 8096_con_co odoo.modules.loading: loading portal/views/portal_templates.xml
+2018-03-15 08:52:20,769 1 INFO 8096_con_co odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml
+2018-03-15 08:52:21,005 1 INFO 8096_con_co odoo.modules.registry: module product: creating or updating database tables
+2018-03-15 08:52:21,629 1 INFO 8096_con_co odoo.models: Computing parent left and right for table product_category...
+2018-03-15 08:52:23,555 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:23,677 1 INFO 8096_con_co odoo.models: Storing computed values of product.template.volume
+2018-03-15 08:52:23,678 1 INFO 8096_con_co odoo.models: Storing computed values of product.template.weight
+2018-03-15 08:52:23,685 1 INFO 8096_con_co odoo.models: Storing computed values of product.template.default_code
+2018-03-15 08:52:23,686 1 INFO 8096_con_co odoo.models: Storing computed values of product.template.activity_date_deadline
+2018-03-15 08:52:23,716 1 INFO 8096_con_co odoo.models: Storing computed values of product.category.complete_name
+2018-03-15 08:52:23,862 1 INFO 8096_con_co odoo.models: Storing computed values of product.product.activity_date_deadline
+2018-03-15 08:52:24,148 1 INFO 8096_con_co odoo.models: Storing computed values of product.pricelist.item.company_id
+2018-03-15 08:52:24,151 1 INFO 8096_con_co odoo.models: Storing computed values of product.pricelist.item.currency_id
+2018-03-15 08:52:24,342 1 INFO 8096_con_co odoo.modules.loading: loading product/data/product_data.xml
+2018-03-15 08:52:24,481 1 INFO 8096_con_co odoo.modules.loading: loading product/security/product_security.xml
+2018-03-15 08:52:25,019 1 INFO 8096_con_co odoo.modules.loading: loading product/security/ir.model.access.csv
+2018-03-15 08:52:25,183 1 INFO 8096_con_co odoo.modules.loading: loading product/wizard/product_price_list_views.xml
+2018-03-15 08:52:25,215 1 INFO 8096_con_co odoo.modules.loading: loading product/views/res_config_settings_views.xml
+2018-03-15 08:52:25,258 1 INFO 8096_con_co odoo.modules.loading: loading product/views/product_attribute_views.xml
+2018-03-15 08:52:25,384 1 INFO 8096_con_co odoo.modules.loading: loading product/views/product_uom_views.xml
+2018-03-15 08:52:25,445 1 INFO 8096_con_co odoo.modules.loading: loading product/views/product_views.xml
+2018-03-15 08:52:25,820 1 INFO 8096_con_co odoo.modules.loading: loading product/views/product_template_views.xml
+2018-03-15 08:52:25,912 1 INFO 8096_con_co odoo.modules.loading: loading product/views/product_pricelist_views.xml
+2018-03-15 08:52:26,064 1 INFO 8096_con_co odoo.modules.loading: loading product/views/res_partner_views.xml
+2018-03-15 08:52:26,112 1 INFO 8096_con_co odoo.modules.loading: loading product/report/product_reports.xml
+2018-03-15 08:52:26,134 1 INFO 8096_con_co odoo.modules.loading: loading product/report/product_pricelist_templates.xml
+2018-03-15 08:52:26,154 1 INFO 8096_con_co odoo.modules.loading: loading product/report/product_product_templates.xml
+2018-03-15 08:52:26,191 1 INFO 8096_con_co odoo.modules.loading: loading product/report/product_template_templates.xml
+2018-03-15 08:52:26,573 1 WARNING 8096_con_co odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not installed. Try: pip install phonenumbers.
+2018-03-15 08:52:26,652 1 INFO 8096_con_co odoo.modules.registry: module sms: creating or updating database tables
+2018-03-15 08:52:26,810 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:26,946 1 INFO 8096_con_co odoo.modules.loading: loading sms/wizard/send_sms_views.xml
+2018-03-15 08:52:26,982 1 INFO 8096_con_co odoo.modules.loading: loading sms/views/res_partner_views.xml
+2018-03-15 08:52:27,290 1 INFO 8096_con_co odoo.modules.registry: module account: creating or updating database tables
+2018-03-15 08:52:28,822 1 INFO 8096_con_co odoo.models: Computing parent left and right for table account_group...
+2018-03-15 08:52:40,657 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:40,922 1 INFO 8096_con_co odoo.models: Storing computed values of account.account.internal_type
+2018-03-15 08:52:41,075 1 INFO 8096_con_co odoo.models: Storing computed values of account.journal.at_least_one_inbound
+2018-03-15 08:52:41,075 1 INFO 8096_con_co odoo.models: Storing computed values of account.journal.at_least_one_outbound
+2018-03-15 08:52:41,425 1 INFO 8096_con_co odoo.models: Storing computed values of account.payment.company_id
+2018-03-15 08:52:41,569 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.number
+2018-03-15 08:52:41,576 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.amount_untaxed
+2018-03-15 08:52:41,577 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.amount_untaxed_signed
+2018-03-15 08:52:41,577 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.amount_tax
+2018-03-15 08:52:41,578 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.amount_total
+2018-03-15 08:52:41,578 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.amount_total_signed
+2018-03-15 08:52:41,578 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.amount_total_company_signed
+2018-03-15 08:52:41,585 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.reconciled
+2018-03-15 08:52:41,588 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.residual
+2018-03-15 08:52:41,588 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.residual_signed
+2018-03-15 08:52:41,589 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.residual_company_signed
+2018-03-15 08:52:41,598 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.payment_move_line_ids
+2018-03-15 08:52:41,605 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.commercial_partner_id
+2018-03-15 08:52:41,608 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.activity_date_deadline
+2018-03-15 08:52:41,670 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.line.price_subtotal
+2018-03-15 08:52:41,672 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.line.price_total
+2018-03-15 08:52:41,674 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.line.price_subtotal_signed
+2018-03-15 08:52:41,693 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.line.company_id
+2018-03-15 08:52:41,695 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.line.partner_id
+2018-03-15 08:52:41,697 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.line.currency_id
+2018-03-15 08:52:41,747 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.tax.company_id
+2018-03-15 08:52:41,749 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.tax.currency_id
+2018-03-15 08:52:41,749 1 INFO 8096_con_co odoo.models: Storing computed values of account.invoice.tax.base
+2018-03-15 08:52:41,970 1 INFO 8096_con_co odoo.models: Storing computed values of account.bank.statement.company_id
+2018-03-15 08:52:41,970 1 INFO 8096_con_co odoo.models: Storing computed values of account.bank.statement.total_entry_encoding
+2018-03-15 08:52:41,971 1 INFO 8096_con_co odoo.models: Storing computed values of account.bank.statement.balance_end
+2018-03-15 08:52:41,971 1 INFO 8096_con_co odoo.models: Storing computed values of account.bank.statement.difference
+2018-03-15 08:52:42,030 1 INFO 8096_con_co odoo.models: Storing computed values of account.bank.statement.line.journal_id
+2018-03-15 08:52:42,033 1 INFO 8096_con_co odoo.models: Storing computed values of account.bank.statement.line.company_id
+2018-03-15 08:52:42,089 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.currency_id
+2018-03-15 08:52:42,091 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.partner_id
+2018-03-15 08:52:42,092 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.amount
+2018-03-15 08:52:42,095 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.company_id
+2018-03-15 08:52:42,095 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.matched_percentage
+2018-03-15 08:52:42,194 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.balance
+2018-03-15 08:52:42,196 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.debit_cash_basis
+2018-03-15 08:52:42,197 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.credit_cash_basis
+2018-03-15 08:52:42,198 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.balance_cash_basis
+2018-03-15 08:52:42,200 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.company_currency_id
+2018-03-15 08:52:42,203 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.amount_residual
+2018-03-15 08:52:42,204 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.amount_residual_currency
+2018-03-15 08:52:42,205 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.tax_base_amount
+2018-03-15 08:52:42,210 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.ref
+2018-03-15 08:52:42,220 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.statement_id
+2018-03-15 08:52:42,221 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.reconciled
+2018-03-15 08:52:42,225 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.journal_id
+2018-03-15 08:52:42,226 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.date
+2018-03-15 08:52:42,244 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.company_id
+2018-03-15 08:52:42,250 1 INFO 8096_con_co odoo.models: Storing computed values of account.move.line.user_type_id
+2018-03-15 08:52:42,302 1 INFO 8096_con_co odoo.models: Storing computed values of account.partial.reconcile.company_id
+2018-03-15 08:52:42,305 1 INFO 8096_con_co odoo.models: Storing computed values of account.partial.reconcile.max_date
+2018-03-15 08:52:42,797 1 INFO 8096_con_co odoo.models: Storing computed values of account.analytic.line.general_account_id
+2018-03-15 08:52:42,805 1 INFO 8096_con_co odoo.models: Storing computed values of account.analytic.line.currency_id
+2018-03-15 08:52:42,806 1 INFO 8096_con_co odoo.models: Storing computed values of account.analytic.line.amount_currency
+2018-03-15 08:52:43,790 1 INFO 8096_con_co odoo.models: Storing computed values of account.financial.report.level
+2018-03-15 08:52:44,081 1 INFO 8096_con_co odoo.modules.loading: loading account/security/account_security.xml
+2018-03-15 08:52:44,854 1 INFO 8096_con_co odoo.modules.loading: loading account/security/ir.model.access.csv
+2018-03-15 08:52:45,768 1 INFO 8096_con_co odoo.modules.loading: loading account/data/data_account_type.xml
+2018-03-15 08:52:45,863 1 INFO 8096_con_co odoo.modules.loading: loading account/data/account_data.xml
+2018-03-15 08:52:45,972 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_menuitem.xml
+2018-03-15 08:52:46,154 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_payment_view.xml
+2018-03-15 08:52:46,382 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_reconcile_view.xml
+2018-03-15 08:52:46,426 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml
+2018-03-15 08:52:46,455 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml
+2018-03-15 08:52:46,481 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_view.xml
+2018-03-15 08:52:48,232 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_report.xml
+2018-03-15 08:52:48,314 1 INFO 8096_con_co odoo.modules.loading: loading account/data/mail_template_data.xml
+2018-03-15 08:52:48,344 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_invoice_refund_view.xml
+2018-03-15 08:52:48,384 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_validate_move_view.xml
+2018-03-15 08:52:48,408 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_invoice_state_view.xml
+2018-03-15 08:52:48,433 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/pos_box.xml
+2018-03-15 08:52:48,492 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_end_fy.xml
+2018-03-15 08:52:48,495 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_invoice_view.xml
+2018-03-15 08:52:49,034 1 INFO 8096_con_co odoo.modules.loading: loading account/views/partner_view.xml
+2018-03-15 08:52:49,346 1 INFO 8096_con_co odoo.modules.loading: loading account/views/product_view.xml
+2018-03-15 08:52:49,421 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_analytic_view.xml
+2018-03-15 08:52:49,586 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_tip_data.xml
+2018-03-15 08:52:49,588 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account.xml
+2018-03-15 08:52:49,685 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_invoice.xml
+2018-03-15 08:52:49,777 1 INFO 8096_con_co odoo.modules.loading: loading account/report/account_invoice_report_view.xml
+2018-03-15 08:52:49,905 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_overdue.xml
+2018-03-15 08:52:49,950 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_cash_rounding_view.xml
+2018-03-15 08:52:50,031 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_report_common_view.xml
+2018-03-15 08:52:50,062 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_report_print_journal_view.xml
+2018-03-15 08:52:50,107 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_journal.xml
+2018-03-15 08:52:50,137 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_report_partner_ledger_view.xml
+2018-03-15 08:52:50,185 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_partnerledger.xml
+2018-03-15 08:52:50,214 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_report_general_ledger_view.xml
+2018-03-15 08:52:50,259 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_generalledger.xml
+2018-03-15 08:52:50,285 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_report_trial_balance_view.xml
+2018-03-15 08:52:50,337 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_trialbalance.xml
+2018-03-15 08:52:50,366 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_financial_report_data.xml
+2018-03-15 08:52:50,465 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_financial_report_view.xml
+2018-03-15 08:52:50,550 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_financial.xml
+2018-03-15 08:52:50,574 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_report_aged_partner_balance_view.xml
+2018-03-15 08:52:50,608 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_agedpartnerbalance.xml
+2018-03-15 08:52:50,640 1 INFO 8096_con_co odoo.modules.loading: loading account/views/tax_adjustments.xml
+2018-03-15 08:52:50,657 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml
+2018-03-15 08:52:50,677 1 INFO 8096_con_co odoo.modules.loading: loading account/views/res_config_settings_views.xml
+2018-03-15 08:52:50,809 1 INFO 8096_con_co odoo.modules.loading: loading account/views/web_planner_data.xml
+2018-03-15 08:52:50,866 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml
+2018-03-15 08:52:50,921 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_portal_templates.xml
+2018-03-15 08:52:51,085 1 INFO 8096_con_co odoo.modules.loading: loading account/report/account_report_payment_receipt_templates.xml
+2018-03-15 08:52:51,109 1 INFO 8096_con_co odoo.modules.loading: loading account/data/payment_receipt_data.xml
+2018-03-15 08:52:51,132 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/setup_wizards_view.xml
+2018-03-15 08:52:51,342 1 INFO 8096_con_co odoo.modules.loading: loading account/views/account_dashboard_setup_bar.xml
+2018-03-15 08:52:51,376 1 INFO 8096_con_co odoo.modules.loading: loading account/wizard/account_report_tax_view.xml
+2018-03-15 08:52:51,420 1 INFO 8096_con_co odoo.modules.loading: loading account/views/report_tax.xml
+2018-03-15 08:52:53,163 1 INFO 8096_con_co odoo.modules.registry: module stock: creating or updating database tables
+2018-03-15 08:52:54,760 1 INFO 8096_con_co odoo.models: Computing parent left and right for table stock_location...
+2018-03-15 08:52:59,220 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:52:59,291 1 INFO 8096_con_co odoo.models: Storing computed values of procurement.rule.route_sequence
+2018-03-15 08:52:59,660 1 INFO 8096_con_co odoo.models: Storing computed values of stock.inventory.line.product_name
+2018-03-15 08:52:59,660 1 INFO 8096_con_co odoo.models: Storing computed values of stock.inventory.line.product_code
+2018-03-15 08:52:59,664 1 INFO 8096_con_co odoo.models: Storing computed values of stock.inventory.line.location_name
+2018-03-15 08:52:59,668 1 INFO 8096_con_co odoo.models: Storing computed values of stock.inventory.line.prodlot_name
+2018-03-15 08:52:59,670 1 INFO 8096_con_co odoo.models: Storing computed values of stock.inventory.line.company_id
+2018-03-15 08:52:59,671 1 INFO 8096_con_co odoo.models: Storing computed values of stock.inventory.line.theoretical_qty
+2018-03-15 08:52:59,736 1 INFO 8096_con_co odoo.models: Storing computed values of stock.location.complete_name
+2018-03-15 08:52:59,873 1 INFO 8096_con_co odoo.models: Storing computed values of stock.location.path.route_sequence
+2018-03-15 08:53:00,005 1 INFO 8096_con_co odoo.models: Storing computed values of stock.move.product_qty
+2018-03-15 08:53:00,028 1 INFO 8096_con_co odoo.models: Storing computed values of stock.move.scrapped
+2018-03-15 08:53:00,054 1 INFO 8096_con_co odoo.models: Storing computed values of stock.move.reference
+2018-03-15 08:53:00,135 1 INFO 8096_con_co odoo.models: Storing computed values of stock.move.line.product_qty
+2018-03-15 08:53:00,147 1 INFO 8096_con_co odoo.models: Storing computed values of stock.move.line.state
+2018-03-15 08:53:00,154 1 INFO 8096_con_co odoo.models: Storing computed values of stock.move.line.reference
+2018-03-15 08:53:00,216 1 INFO 8096_con_co odoo.models: Storing computed values of stock.production.lot.product_uom_id
+2018-03-15 08:53:00,435 1 INFO 8096_con_co odoo.models: Storing computed values of stock.picking.state
+2018-03-15 08:53:00,438 1 INFO 8096_con_co odoo.models: Storing computed values of stock.picking.group_id
+2018-03-15 08:53:00,439 1 INFO 8096_con_co odoo.models: Storing computed values of stock.picking.priority
+2018-03-15 08:53:00,440 1 INFO 8096_con_co odoo.models: Storing computed values of stock.picking.scheduled_date
+2018-03-15 08:53:00,451 1 INFO 8096_con_co odoo.models: Storing computed values of stock.picking.activity_date_deadline
+2018-03-15 08:53:00,493 1 INFO 8096_con_co odoo.models: Storing computed values of stock.quant.company_id
+2018-03-15 08:53:01,330 1 INFO 8096_con_co odoo.modules.loading: loading stock/security/stock_security.xml
+2018-03-15 08:53:02,481 1 INFO 8096_con_co odoo.modules.loading: loading stock/security/ir.model.access.csv
+2018-03-15 08:53:03,285 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_menu_views.xml
+2018-03-15 08:53:03,425 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml
+2018-03-15 08:53:03,442 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/procurement_data.xml
+2018-03-15 08:53:03,451 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/report_stock_forecast.xml
+2018-03-15 08:53:03,514 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/stock_report_views.xml
+2018-03-15 08:53:03,565 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/report_package_barcode.xml
+2018-03-15 08:53:03,596 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/report_lot_barcode.xml
+2018-03-15 08:53:03,615 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/report_location_barcode.xml
+2018-03-15 08:53:03,657 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml
+2018-03-15 08:53:03,681 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/report_deliveryslip.xml
+2018-03-15 08:53:03,723 1 INFO 8096_con_co odoo.modules.loading: loading stock/report/report_stockinventory.xml
+2018-03-15 08:53:03,741 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml
+2018-03-15 08:53:03,766 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml
+2018-03-15 08:53:03,808 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml
+2018-03-15 08:53:03,832 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_immediate_transfer_views.xml
+2018-03-15 08:53:03,851 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml
+2018-03-15 08:53:03,869 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_overprocessed_transfer_views.xml
+2018-03-15 08:53:03,894 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml
+2018-03-15 08:53:03,924 1 INFO 8096_con_co odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml
+2018-03-15 08:53:03,976 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/res_partner_views.xml
+2018-03-15 08:53:04,115 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/product_strategy_views.xml
+2018-03-15 08:53:04,160 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_incoterms_views.xml
+2018-03-15 08:53:04,228 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_production_lot_views.xml
+2018-03-15 08:53:04,339 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_picking_views.xml
+2018-03-15 08:53:04,691 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_scrap_views.xml
+2018-03-15 08:53:04,794 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_inventory_views.xml
+2018-03-15 08:53:05,007 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_quant_views.xml
+2018-03-15 08:53:05,262 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_location_views.xml
+2018-03-15 08:53:05,556 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_warehouse_views.xml
+2018-03-15 08:53:05,810 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_move_line_views.xml
+2018-03-15 08:53:05,921 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_move_views.xml
+2018-03-15 08:53:06,401 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/product_views.xml
+2018-03-15 08:53:06,904 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/res_config_settings_views.xml
+2018-03-15 08:53:07,028 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/report_stock_traceability.xml
+2018-03-15 08:53:07,166 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/stock_template.xml
+2018-03-15 08:53:07,301 1 INFO 8096_con_co odoo.modules.loading: loading stock/views/procurement_views.xml
+2018-03-15 08:53:07,397 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/default_barcode_patterns.xml
+2018-03-15 08:53:07,422 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/stock_data.xml
+2018-03-15 08:53:07,817 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/stock_data.yml
+2018-03-15 08:53:07,881 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/stock_incoterms_data.xml
+2018-03-15 08:53:07,927 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/stock_sequence_data.xml
+2018-03-15 08:53:07,971 1 INFO 8096_con_co odoo.modules.loading: loading stock/data/web_planner_data.xml
+2018-03-15 08:53:09,569 1 INFO 8096_con_co odoo.modules.registry: module account_bank_statement_import: creating or updating database tables
+2018-03-15 08:53:09,937 1 INFO 8096_con_co odoo.modules.loading: loading account_bank_statement_import/account_bank_statement_import_view.xml
+2018-03-15 08:53:10,019 1 INFO 8096_con_co odoo.modules.loading: loading account_bank_statement_import/account_import_tip_data.xml
+2018-03-15 08:53:10,021 1 INFO 8096_con_co odoo.modules.loading: loading account_bank_statement_import/wizard/journal_creation.xml
+2018-03-15 08:53:10,307 1 INFO 8096_con_co odoo.modules.registry: module payment: creating or updating database tables
+2018-03-15 08:53:10,952 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:53:11,333 1 INFO 8096_con_co odoo.modules.loading: loading payment/data/account_data.xml
+2018-03-15 08:53:11,356 1 INFO 8096_con_co odoo.modules.loading: loading payment/data/payment_icon_data.xml
+2018-03-15 08:53:11,563 1 INFO 8096_con_co odoo.modules.loading: loading payment/data/payment_acquirer_data.xml
+2018-03-15 08:53:11,922 1 INFO 8096_con_co odoo.modules.loading: loading payment/views/payment_views.xml
+2018-03-15 08:53:12,221 1 INFO 8096_con_co odoo.modules.loading: loading payment/views/account_payment_views.xml
+2018-03-15 08:53:12,363 1 INFO 8096_con_co odoo.modules.loading: loading payment/views/payment_templates.xml
+2018-03-15 08:53:12,445 1 INFO 8096_con_co odoo.modules.loading: loading payment/views/payment_portal_templates.xml
+2018-03-15 08:53:12,531 1 INFO 8096_con_co odoo.modules.loading: loading payment/views/assets.xml
+2018-03-15 08:53:12,561 1 INFO 8096_con_co odoo.modules.loading: loading payment/views/res_partner_views.xml
+2018-03-15 08:53:12,647 1 INFO 8096_con_co odoo.modules.loading: loading payment/security/ir.model.access.csv
+2018-03-15 08:53:12,778 1 INFO 8096_con_co odoo.modules.loading: loading payment/security/payment_security.xml
+2018-03-15 08:53:13,306 1 INFO 8096_con_co odoo.modules.registry: module stock_account: creating or updating database tables
+2018-03-15 08:53:13,905 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/security/stock_account_security.xml
+2018-03-15 08:53:14,057 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/security/ir.model.access.csv
+2018-03-15 08:53:14,133 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/wizard/stock_change_standard_price_views.xml
+2018-03-15 08:53:14,162 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/data/stock_account_data.xml
+2018-03-15 08:53:14,202 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/views/stock_account_views.xml
+2018-03-15 08:53:14,365 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/views/res_config_settings_views.xml
+2018-03-15 08:53:14,449 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/data/product_data.xml
+2018-03-15 08:53:14,472 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/views/product_views.xml
+2018-03-15 08:53:14,784 1 INFO 8096_con_co odoo.modules.loading: loading stock_account/data/stock_account_data_post_install.yml
+2018-03-15 08:53:15,273 1 INFO 8096_con_co odoo.modules.registry: module payment_transfer: creating or updating database tables
+2018-03-15 08:53:15,344 1 INFO 8096_con_co odoo.modules.loading: loading payment_transfer/views/payment_views.xml
+2018-03-15 08:53:15,387 1 INFO 8096_con_co odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml
+2018-03-15 08:53:15,406 1 INFO 8096_con_co odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml
+2018-03-15 08:53:15,786 1 INFO 8096_con_co odoo.modules.registry: module point_of_sale: creating or updating database tables
+2018-03-15 08:53:17,784 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:53:18,608 1 INFO 8096_con_co odoo.models: Storing computed values of pos.order.location_id
+2018-03-15 08:53:18,612 1 INFO 8096_con_co odoo.models: Storing computed values of pos.order.sale_journal
+2018-03-15 08:53:18,786 1 INFO 8096_con_co odoo.models: Storing computed values of pos.session.cash_journal_id
+2018-03-15 08:53:18,793 1 INFO 8096_con_co odoo.models: Storing computed values of pos.session.cash_register_id
+2018-03-15 08:53:19,160 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/security/point_of_sale_security.xml
+2018-03-15 08:53:19,642 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/security/ir.model.access.csv
+2018-03-15 08:53:20,067 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/data/default_barcode_patterns.xml
+2018-03-15 08:53:20,085 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/wizard/pos_box.xml
+2018-03-15 08:53:20,107 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/wizard/pos_details.xml
+2018-03-15 08:53:20,132 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/wizard/pos_discount.xml
+2018-03-15 08:53:20,153 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/wizard/pos_open_statement.xml
+2018-03-15 08:53:20,179 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/wizard/pos_payment.xml
+2018-03-15 08:53:20,202 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/pos_templates.xml
+2018-03-15 08:53:20,356 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/point_of_sale_template.xml
+2018-03-15 08:53:20,426 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/point_of_sale_report.xml
+2018-03-15 08:53:20,468 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/point_of_sale_view.xml
+2018-03-15 08:53:20,506 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/pos_order_view.xml
+2018-03-15 08:53:20,707 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/pos_category_view.xml
+2018-03-15 08:53:20,763 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/product_view.xml
+2018-03-15 08:53:20,937 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/account_journal_view.xml
+2018-03-15 08:53:20,999 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/pos_config_view.xml
+2018-03-15 08:53:21,171 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/pos_session_view.xml
+2018-03-15 08:53:21,283 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/point_of_sale_sequence.xml
+2018-03-15 08:53:21,292 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/point_of_sale.xml
+2018-03-15 08:53:21,354 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/data/point_of_sale_data.xml
+2018-03-15 08:53:22,091 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/pos_order_report_view.xml
+2018-03-15 08:53:22,179 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/account_statement_view.xml
+2018-03-15 08:53:22,244 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/account_statement_report.xml
+2018-03-15 08:53:22,251 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/res_users_view.xml
+2018-03-15 08:53:22,340 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/res_partner_view.xml
+2018-03-15 08:53:22,467 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/report_statement.xml
+2018-03-15 08:53:22,490 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/report_userlabel.xml
+2018-03-15 08:53:22,506 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/report_saledetails.xml
+2018-03-15 08:53:22,526 1 INFO 8096_con_co odoo.modules.loading: loading point_of_sale/views/point_of_sale_dashboard.xml
+2018-03-15 08:53:23,155 1 INFO 8096_con_co odoo.modules.loading: 30 modules loaded in 79.00s, 190 queries
+2018-03-15 08:53:23,746 1 INFO 8096_con_co odoo.modules.loading: Modules loaded.
+2018-03-15 08:53:23,748 1 INFO 8096_con_co odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-03-15 08:53:23,828 1 INFO 8096_con_co odoo.models: Computing parent left and right for table stock_location...
+2018-03-15 08:53:23,834 1 INFO 8096_con_co odoo.models: Computing parent left and right for table product_category...
+2018-03-15 08:53:23,839 1 INFO 8096_con_co odoo.addons.base.module.module: getting next ir.actions.todo()
+2018-03-15 08:53:23,841 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:23] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-03-15 08:53:23,861 1 INFO 8096_con_co odoo.addons.base.ir.ir_http: Generating routing map
+2018-03-15 08:53:24,878 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [239]
+2018-03-15 08:53:26,500 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [241, 240]
+2018-03-15 08:53:26,944 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [243]
+2018-03-15 08:53:27,352 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [244]
+2018-03-15 08:53:27,967 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [245]
+2018-03-15 08:53:28,084 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [247]
+2018-03-15 08:53:28,156 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web HTTP/1.1" 200 -
+2018-03-15 08:53:28,219 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/content/303-aadf65c/web.assets_common.0.css HTTP/1.1" 200 -
+2018-03-15 08:53:28,250 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/content/304-8b69f8e/web.assets_backend.0.css HTTP/1.1" 200 -
+2018-03-15 08:53:28,268 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/content/306-91f7cc3/web_editor.assets_editor.0.css HTTP/1.1" 200 -
+2018-03-15 08:53:28,287 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/content/307-aadf65c/web.assets_common.js HTTP/1.1" 200 -
+2018-03-15 08:53:28,304 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/content/308-8b69f8e/web.assets_backend.js HTTP/1.1" 200 -
+2018-03-15 08:53:28,313 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/content/305-8b69f8e/web.assets_backend.1.css HTTP/1.1" 200 -
+2018-03-15 08:53:28,315 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/content/309-91f7cc3/web_editor.assets_editor.js HTTP/1.1" 200 -
+2018-03-15 08:53:28,616 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 08:53:28,667 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:53:28,762 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:53:28,836 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 08:53:28,838 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-03-15 08:53:28,839 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-03-15 08:53:28,859 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-03-15 08:53:28,866 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 08:53:28,884 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-03-15 08:53:28,896 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:53:28,951 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 -
+2018-03-15 08:53:28,984 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:28] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-03-15 08:53:29,019 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:53:29] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 -
+2018-03-15 08:54:04,792 1 INFO 8096_con_co odoo.addons.base.ir.ir_cron: Starting job `Base: Auto-vacuum internal data`.
+2018-03-15 08:54:04,823 1 INFO 8096_con_co odoo.addons.base.ir.ir_attachment: filestore gc 306 checked, 5 removed
+2018-03-15 08:54:04,865 1 INFO 8096_con_co odoo.addons.base.ir.ir_autovacuum: GC'd 0 user log entries
+2018-03-15 08:54:04,873 1 INFO 8096_con_co odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-03-15 08:54:04,899 1 INFO 8096_con_co odoo.addons.base.ir.ir_cron: Starting job `Procurement: run scheduler`.
+2018-03-15 08:54:18,887 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:54:18] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:55:08,930 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:55:08] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:55:58,960 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:55:58] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:56:48,989 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:56:48] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:57:16,314 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:16] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:57:16,431 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:16] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
+2018-03-15 08:57:16,505 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:16] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:57:17,901 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:17] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:57:19,396 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:57:22,716 1 INFO 8096_con_co odoo.addons.base.module.module: ALLOW access to module.button_immediate_install on ['go_inside'] to user admin #1 via 172.17.0.1
+2018-03-15 08:57:22,716 1 INFO 8096_con_co odoo.addons.base.module.module: User #1 triggered module installation
+2018-03-15 08:57:22,716 1 INFO 8096_con_co odoo.addons.base.module.module: ALLOW access to module.button_install on ['go_inside'] to user admin #1 via 172.17.0.1
+2018-03-15 08:57:23,112 1 INFO 8096_con_co odoo.modules.loading: loading 1 modules...
+2018-03-15 08:57:23,123 1 INFO 8096_con_co odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-03-15 08:57:23,243 1 INFO 8096_con_co odoo.modules.loading: updating modules list
+2018-03-15 08:57:23,247 1 INFO 8096_con_co odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user admin #1 via 172.17.0.1
+2018-03-15 08:57:23,799 1 INFO 8096_con_co odoo.modules.loading: loading 30 modules...
+2018-03-15 08:57:23,855 1 INFO 8096_con_co odoo.modules.loading: 30 modules loaded in 0.06s, 0 queries
+2018-03-15 08:57:23,865 1 INFO 8096_con_co odoo.modules.loading: loading 33 modules...
+2018-03-15 08:57:24,036 1 INFO 8096_con_co odoo.modules.registry: module sales_team: creating or updating database tables
+2018-03-15 08:57:24,342 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:57:24,621 1 INFO 8096_con_co odoo.modules.loading: loading sales_team/security/sales_team_security.xml
+2018-03-15 08:57:25,441 1 INFO 8096_con_co odoo.modules.loading: loading sales_team/security/ir.model.access.csv
+2018-03-15 08:57:25,486 1 INFO 8096_con_co odoo.modules.loading: loading sales_team/data/sales_team_data.xml
+2018-03-15 08:57:26,006 1 INFO 8096_con_co odoo.modules.loading: loading sales_team/views/crm_team_views.xml
+2018-03-15 08:57:26,324 1 INFO 8096_con_co odoo.modules.loading: loading sales_team/views/sales_team_dashboard.xml
+2018-03-15 08:57:27,172 1 INFO 8096_con_co odoo.modules.registry: module sale: creating or updating database tables
+2018-03-15 08:57:28,830 1 INFO 8096_con_co odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-03-15 08:57:29,339 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.invoice_status
+2018-03-15 08:57:29,340 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.amount_untaxed
+2018-03-15 08:57:29,340 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.amount_tax
+2018-03-15 08:57:29,340 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.amount_total
+2018-03-15 08:57:29,349 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.activity_date_deadline
+2018-03-15 08:57:29,502 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.invoice_status
+2018-03-15 08:57:29,503 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.price_subtotal
+2018-03-15 08:57:29,505 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.price_tax
+2018-03-15 08:57:29,505 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.price_total
+2018-03-15 08:57:29,506 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.price_reduce
+2018-03-15 08:57:29,521 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.price_reduce_taxinc
+2018-03-15 08:57:29,522 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.price_reduce_taxexcl
+2018-03-15 08:57:29,528 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.qty_to_invoice
+2018-03-15 08:57:29,530 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.qty_invoiced
+2018-03-15 08:57:29,536 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.salesman_id
+2018-03-15 08:57:29,539 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.currency_id
+2018-03-15 08:57:29,543 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.company_id
+2018-03-15 08:57:29,549 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.order_partner_id
+2018-03-15 08:57:29,562 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.state
+2018-03-15 08:57:29,563 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.amt_to_invoice
+2018-03-15 08:57:29,564 1 INFO 8096_con_co odoo.models: Storing computed values of sale.order.line.amt_invoiced
+2018-03-15 08:57:30,091 1 INFO 8096_con_co odoo.modules.loading: loading sale/data/ir_sequence_data.xml
+2018-03-15 08:57:30,122 1 INFO 8096_con_co odoo.modules.loading: loading sale/data/sale_data.xml
+2018-03-15 08:57:30,237 1 INFO 8096_con_co odoo.modules.loading: loading sale/report/sale_report.xml
+2018-03-15 08:57:30,287 1 INFO 8096_con_co odoo.modules.loading: loading sale/data/mail_template_data.xml
+2018-03-15 08:57:30,329 1 INFO 8096_con_co odoo.modules.loading: loading sale/report/sale_report_views.xml
+2018-03-15 08:57:30,539 1 INFO 8096_con_co odoo.modules.loading: loading sale/report/sale_report_templates.xml
+2018-03-15 08:57:30,628 1 INFO 8096_con_co odoo.modules.loading: loading sale/report/invoice_report_templates.xml
+2018-03-15 08:57:30,736 1 INFO 8096_con_co odoo.modules.loading: loading sale/report/report_all_channels_sales_views.xml
+2018-03-15 08:57:30,797 1 INFO 8096_con_co odoo.modules.loading: loading sale/security/sale_security.xml
+2018-03-15 08:57:33,350 1 INFO 8096_con_co odoo.modules.loading: loading sale/security/ir.model.access.csv
+2018-03-15 08:57:34,240 1 INFO 8096_con_co odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml
+2018-03-15 08:57:34,293 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/sale_views.xml
+2018-03-15 08:57:36,137 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/account_invoice_views.xml
+2018-03-15 08:57:36,242 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/sales_team_views.xml
+2018-03-15 08:57:36,452 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/res_partner_views.xml
+2018-03-15 08:57:36,721 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/assets.xml
+2018-03-15 08:57:36,942 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/sale_portal_templates.xml
+2018-03-15 08:57:37,203 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/sale_layout_category_view.xml
+2018-03-15 08:57:37,306 1 INFO 8096_con_co odoo.modules.loading: loading sale/views/res_config_settings_views.xml
+2018-03-15 08:57:38,765 1 INFO 8096_con_co odoo.modules.registry: module go_inside: creating or updating database tables
+2018-03-15 08:57:38,777 1 INFO 8096_con_co odoo.modules.loading: loading go_inside/views/views.xml
+2018-03-15 08:57:38,846 1 INFO 8096_con_co odoo.modules.loading: loading go_inside/views/templates.xml
+2018-03-15 08:57:38,908 1 INFO 8096_con_co odoo.modules.loading: 33 modules loaded in 15.04s, 54 queries
+2018-03-15 08:57:39,665 1 INFO 8096_con_co odoo.modules.loading: Modules loaded.
+2018-03-15 08:57:39,668 1 INFO 8096_con_co odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-03-15 08:57:39,754 1 INFO 8096_con_co odoo.addons.base.module.module: getting next ir.actions.todo()
+2018-03-15 08:57:39,756 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:39] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:57:39,756 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:39] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-03-15 08:57:39,764 1 INFO 8096_con_co odoo.addons.base.ir.ir_http: Generating routing map
+2018-03-15 08:57:41,623 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [305, 304]
+2018-03-15 08:57:42,255 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [308]
+2018-03-15 08:57:42,451 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:42] "GET /web HTTP/1.1" 200 -
+2018-03-15 08:57:42,530 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:42] "GET /web/content/311-6621633/web.assets_backend.0.css HTTP/1.1" 200 -
+2018-03-15 08:57:42,533 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:42] "GET /web/content/312-6621633/web.assets_backend.1.css HTTP/1.1" 200 -
+2018-03-15 08:57:42,553 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:42] "GET /web/content/313-6621633/web.assets_backend.js HTTP/1.1" 200 -
+2018-03-15 08:57:42,939 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:42] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,sales_team,sale,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 08:57:43,011 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:57:43,131 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:57:43,190 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 08:57:43,203 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-03-15 08:57:43,210 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-03-15 08:57:43,226 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-03-15 08:57:43,249 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 08:57:43,284 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:57:43,343 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 -
+2018-03-15 08:57:43,388 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-03-15 08:57:43,437 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:57:43] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 -
+2018-03-15 08:58:14,460 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:14] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:58:14,846 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:14] "POST /web/dataset/call_kw/pos.config/load_views HTTP/1.1" 200 -
+2018-03-15 08:58:14,924 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:15,620 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:15] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:58:15,689 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:15] "POST /web/dataset/call_kw/pos.order/load_views HTTP/1.1" 200 -
+2018-03-15 08:58:15,728 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:16,971 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:16] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:26,340 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:26] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:29,311 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:29,824 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:29] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:58:31,340 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:31] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-03-15 08:58:32,041 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /pos/web/ HTTP/1.1" 200 -
+2018-03-15 08:58:32,108 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /web/content/314-d643c75/point_of_sale.assets.0.css HTTP/1.1" 200 -
+2018-03-15 08:58:32,118 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /web/content/315-d643c75/point_of_sale.assets.js HTTP/1.1" 200 -
+2018-03-15 08:58:32,395 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,sales_team,sale,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 08:58:32,447 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:58:32,544 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:58:32,634 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 08:58:32,643 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/webclient/version_info HTTP/1.1" 200 -
+2018-03-15 08:58:32,714 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /web/static/src/fonts/lato/Lato-Reg-webfont.woff HTTP/1.1" 200 -
+2018-03-15 08:58:32,731 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-03-15 08:58:32,753 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 -
+2018-03-15 08:58:32,775 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/decimal.precision/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:32,806 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /web/static/src/fonts/lato/Lato-Lig-webfont.woff HTTP/1.1" 200 -
+2018-03-15 08:58:32,811 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /point_of_sale/static/src/img/logo.png HTTP/1.1" 200 -
+2018-03-15 08:58:32,832 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/product.uom/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:32,866 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/res.partner/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:32,894 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /point_of_sale/static/src/img/touch-icon-128.png HTTP/1.1" 200 -
+2018-03-15 08:58:32,924 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/res.country/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:32,931 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "GET /point_of_sale/static/src/img/touch-icon-196.png HTTP/1.1" 200 -
+2018-03-15 08:58:32,942 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/account.tax/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:32,995 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:32] "POST /web/dataset/call_kw/pos.session/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,087 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/pos.config/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,109 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/res.users/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,149 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/stock.location/read HTTP/1.1" 200 -
+2018-03-15 08:58:33,175 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/product.pricelist/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,217 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/product.pricelist.item/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,238 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/product.category/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,252 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/res.currency/read HTTP/1.1" 200 -
+2018-03-15 08:58:33,268 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/pos.category/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,293 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:58:33,323 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/product.product/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,341 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/account.bank.statement/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,358 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/account.journal/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,379 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/account.fiscal.position/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,390 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/account.fiscal.position.tax/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:33,416 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /web/binary/company_logo?dbname=8096_con_co&_0.554672881912341 HTTP/1.1" 200 -
+2018-03-15 08:58:33,417 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /point_of_sale/static/src/fonts/Inconsolata.otf HTTP/1.1" 200 -
+2018-03-15 08:58:33,448 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 -
+2018-03-15 08:58:33,465 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /point_of_sale/static/src/css/chrome50.css HTTP/1.1" 200 -
+2018-03-15 08:58:33,515 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /point_of_sale/static/src/img/search.png HTTP/1.1" 200 -
+2018-03-15 08:58:33,518 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /web/static/src/fonts/lato/Lato-RegIta-webfont.woff HTTP/1.1" 200 -
+2018-03-15 08:58:33,531 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /web/static/src/fonts/lato/Lato-Bol-webfont.woff HTTP/1.1" 200 -
+2018-03-15 08:58:33,536 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /web/static/src/fonts/lato/Lato-Bla-webfont.woff HTTP/1.1" 200 -
+2018-03-15 08:58:33,539 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /point_of_sale/static/src/img/backspace.png HTTP/1.1" 200 -
+2018-03-15 08:58:33,546 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /web/image?model=product.product&field=image_medium&id=1 HTTP/1.1" 200 -
+2018-03-15 08:58:33,551 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "GET /web/image?model=product.product&field=image_medium&id=2 HTTP/1.1" 200 -
+2018-03-15 08:58:33,601 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:33] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:41,036 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:41] "GET /point_of_sale/static/src/sounds/error.wav HTTP/1.1" 404 -
+2018-03-15 08:58:54,439 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:54] "GET /point_of_sale/static/src/sounds/error.wav HTTP/1.1" 404 -
+2018-03-15 08:58:59,391 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "GET /web HTTP/1.1" 200 -
+2018-03-15 08:58:59,735 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,sales_team,sale,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 08:58:59,768 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:58:59,872 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:58:59,911 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 08:58:59,920 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-03-15 08:58:59,929 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-03-15 08:58:59,973 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 08:58:59,980 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:58:59] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:59:00,057 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "GET /web? HTTP/1.1" 200 -
+2018-03-15 08:59:00,368 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,sales_team,sale,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 08:59:00,381 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:59:00,440 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:59:00,477 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 08:59:00,483 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-03-15 08:59:00,491 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-03-15 08:59:00,536 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:00,619 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:59:00,793 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /web/dataset/call_kw/pos.config/load_views HTTP/1.1" 200 -
+2018-03-15 08:59:00,892 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:04,706 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:04] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:59:04,796 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:04] "POST /web/dataset/call_kw/pos.config/load_views HTTP/1.1" 200 -
+2018-03-15 08:59:04,838 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:05,629 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:05] "POST /web/dataset/call_kw/pos.config/read HTTP/1.1" 200 -
+2018-03-15 08:59:05,648 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:05] "POST /web/dataset/call_kw/product.pricelist/read HTTP/1.1" 200 -
+2018-03-15 08:59:05,794 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:05] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 200 -
+2018-03-15 08:59:07,273 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /point_of_sale/field/customer_facing_display_template?&model=pos.config&field=customer_facing_display_html&res_id=1&callback=FieldTextHtml_44&datarecord=%7B%22id%22%3A1%2C%22iface_cashdrawer%22%3Afalse%2C%22barcode_scanner%22%3Afalse%2C%22module_pos_restaurant%22%3Afalse%2C%22tax_regime%22%3Afalse%2C%22iface_print_via_proxy%22%3Afalse%2C%22module_pos_loyalty%22%3Afalse%2C%22module_pos_mercury%22%3Afalse%2C%22display_name%22%3A%22Main%20(Administrator)%22%2C%22iface_customer_facing_display%22%3Afalse%2C%22cash_control%22%3Afalse%2C%22name%22%3A%22Main%22%2C%22active%22%3Atrue%2C%22iface_scan_via_proxy%22%3Afalse%2C%22is_posbox%22%3Afalse%2C%22tax_regime_selection%22%3Afalse%2C%22use_pricelist%22%3Afalse%2C%22iface_tax_included%22%3A%22subtotal%22%2C%22iface_vkeyboard%22%3Afalse%2C%22is_header_or_footer%22%3Afalse%2C%22iface_start_categ_id%22%3Afalse%2C%22is_installed_account_accountant%22%3Afalse%2C%22iface_precompute_cash%22%3Afalse%2C%22receipt_header%22%3Afalse%2C%22proxy_ip%22%3Afalse%2C%22start_category%22%3Afalse%2C%22iface_print_auto%22%3Afalse%2C%22iface_electronic_scale%22%3Afalse%2C%22default_fiscal_position_id%22%3Afalse%2C%22iface_display_categ_images%22%3Afalse%2C%22module_pos_discount%22%3Afalse%2C%22iface_big_scrollbars%22%3Afalse%2C%22iface_invoicing%22%3Afalse%2C%22receipt_footer%22%3Afalse%2C%22iface_print_skip_screen%22%3Atrue%2C%22group_by%22%3Atrue%2C%22module_pos_reprint%22%3Afalse%2C%22restrict_price_control%22%3Afalse%7D HTTP/1.1" 200 -
+2018-03-15 08:59:07,288 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web/static/src/js/services/session.js HTTP/1.1" 200 -
+2018-03-15 08:59:07,294 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /point_of_sale/field/customer_facing_display_template?&model=pos.config&field=customer_facing_display_html&res_id=1&callback=FieldTextHtml_46&datarecord=%7B%22id%22%3A1%2C%22iface_cashdrawer%22%3Afalse%2C%22barcode_scanner%22%3Afalse%2C%22module_pos_restaurant%22%3Afalse%2C%22tax_regime%22%3Afalse%2C%22iface_print_via_proxy%22%3Afalse%2C%22module_pos_loyalty%22%3Afalse%2C%22module_pos_mercury%22%3Afalse%2C%22display_name%22%3A%22Main%20(Administrator)%22%2C%22iface_customer_facing_display%22%3Afalse%2C%22cash_control%22%3Afalse%2C%22name%22%3A%22Main%22%2C%22active%22%3Atrue%2C%22iface_scan_via_proxy%22%3Afalse%2C%22is_posbox%22%3Afalse%2C%22tax_regime_selection%22%3Afalse%2C%22use_pricelist%22%3Afalse%2C%22iface_tax_included%22%3A%22subtotal%22%2C%22iface_vkeyboard%22%3Afalse%2C%22is_header_or_footer%22%3Afalse%2C%22iface_start_categ_id%22%3Afalse%2C%22is_installed_account_accountant%22%3Afalse%2C%22iface_precompute_cash%22%3Afalse%2C%22receipt_header%22%3Afalse%2C%22proxy_ip%22%3Afalse%2C%22start_category%22%3Afalse%2C%22iface_print_auto%22%3Afalse%2C%22iface_electronic_scale%22%3Afalse%2C%22default_fiscal_position_id%22%3Afalse%2C%22iface_display_categ_images%22%3Afalse%2C%22module_pos_discount%22%3Afalse%2C%22iface_big_scrollbars%22%3Afalse%2C%22iface_invoicing%22%3Afalse%2C%22receipt_footer%22%3Afalse%2C%22iface_print_skip_screen%22%3Atrue%2C%22group_by%22%3Atrue%2C%22module_pos_reprint%22%3Afalse%2C%22restrict_price_control%22%3Afalse%7D HTTP/1.1" 200 -
+2018-03-15 08:59:07,302 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web_editor/static/src/js/content/body_manager.js HTTP/1.1" 200 -
+2018-03-15 08:59:07,304 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web_editor/static/src/js/root_widget.js HTTP/1.1" 200 -
+2018-03-15 08:59:07,318 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web/content/316-d2aeb30/web.assets_frontend.0.css HTTP/1.1" 200 -
+2018-03-15 08:59:07,318 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web_editor/static/src/js/iframe.js HTTP/1.1" 200 -
+2018-03-15 08:59:07,323 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /point_of_sale/static/src/css/customer_facing_display.css HTTP/1.1" 200 -
+2018-03-15 08:59:07,324 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web/static/src/img/logo_inverse_white_206px.png HTTP/1.1" 200 -
+2018-03-15 08:59:07,362 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web/content/317-d2aeb30/web.assets_frontend.0.css HTTP/1.1" 200 -
+2018-03-15 08:59:07,511 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:59:07,533 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:59:07,606 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:59:07,631 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /logo HTTP/1.1" 200 -
+2018-03-15 08:59:07,654 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /pos_data_drinks/static/img/th-gordon.jpg HTTP/1.1" 200 -
+2018-03-15 08:59:07,657 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /pos_data_drinks/static/img/th-fanta.jpg HTTP/1.1" 200 -
+2018-03-15 08:59:07,657 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /pos_data_drinks/static/img/th-malibu.jpg HTTP/1.1" 200 -
+2018-03-15 08:59:07,657 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /pos_data_drinks/static/img/th-water.jpg HTTP/1.1" 200 -
+2018-03-15 08:59:07,667 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:59:07,781 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:07] "GET /web_editor/font_to_img/61541/rgb(255,255,255)/16 HTTP/1.1" 200 -
+2018-03-15 08:59:10,388 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:10] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:59:10,523 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:10] "POST /web/dataset/call_kw/pos.session/load_views HTTP/1.1" 200 -
+2018-03-15 08:59:10,559 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:10] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:11,103 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:11] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:59:11,258 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:11] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 -
+2018-03-15 08:59:11,355 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:11,456 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:11] "GET /web/static/src/img/placeholder.png HTTP/1.1" 200 -
+2018-03-15 08:59:11,470 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:11] "GET /web/image?model=product.template&field=image_small&id=2&unique= HTTP/1.1" 200 -
+2018-03-15 08:59:13,222 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:18,678 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:18] "GET /web?debug HTTP/1.1" 200 -
+2018-03-15 08:59:18,972 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:18] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,sales_team,sale,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 08:59:18,983 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:18] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 08:59:19,065 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 08:59:19,124 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 08:59:19,128 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-03-15 08:59:19,141 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-03-15 08:59:19,142 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2018-03-15 08:59:19,145 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-03-15 08:59:19,169 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-03-15 08:59:19,181 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-03-15 08:59:19,225 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:19,265 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 08:59:19,473 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 -
+2018-03-15 08:59:19,587 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:19] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 08:59:22,868 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:22] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:59:25,585 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 -
+2018-03-15 08:59:25,608 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "POST /web/dataset/call_kw/res.groups/load_views HTTP/1.1" 200 -
+2018-03-15 08:59:25,630 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2018-03-15 08:59:25,644 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2018-03-15 08:59:25,704 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "GET /web/static/lib/ace/ace.odoo-custom.js HTTP/1.1" 200 -
+2018-03-15 08:59:25,746 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 200 -
+2018-03-15 08:59:25,754 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 200 -
+2018-03-15 08:59:25,798 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "GET /web/static/src/xml/dialog.xml?debug=1521104365789 HTTP/1.1" 200 -
+2018-03-15 08:59:25,881 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-03-15 08:59:25,882 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-03-15 08:59:25,883 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:25] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-03-15 08:59:50,003 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:50] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 08:59:50,551 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 08:59:50] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:00:09,266 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:00:09] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:00:59,304 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:00:59] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:01:49,336 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:01:49] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:02:13,764 1 INFO ? odoo.service.server: Initiating shutdown
+2018-03-15 09:02:13,764 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-03-15 09:02:46,077 1 INFO ? odoo: Odoo version 11.0-20180122
+2018-03-15 09:02:46,078 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2018-03-15 09:02:46,078 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/11.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons']
+2018-03-15 09:02:46,078 1 INFO ? odoo: database: odoo@172.17.0.2:5432
+2018-03-15 09:02:46,132 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-03-15 09:02:46,322 1 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-03-15 09:02:48,238 1 INFO ? odoo.http: HTTP Configuring static files
+2018-03-15 09:02:48,246 1 INFO 8096_con_co odoo.modules.loading: loading 1 modules...
+2018-03-15 09:02:48,264 1 INFO 8096_con_co odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-03-15 09:02:48,319 1 INFO 8096_con_co odoo.modules.loading: loading 33 modules...
+2018-03-15 09:02:48,374 1 WARNING 8096_con_co odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not installed. Try: pip install phonenumbers.
+2018-03-15 09:02:48,939 1 INFO 8096_con_co odoo.modules.registry: module go_inside: creating or updating database tables
+2018-03-15 09:02:48,946 1 INFO 8096_con_co odoo.modules.loading: loading go_inside/views/views.xml
+2018-03-15 09:02:48,999 1 INFO 8096_con_co odoo.modules.loading: loading go_inside/views/templates.xml
+2018-03-15 09:02:49,114 1 INFO 8096_con_co odoo.modules.loading: 33 modules loaded in 0.79s, 12 queries
+2018-03-15 09:02:49,570 1 INFO 8096_con_co odoo.modules.loading: Modules loaded.
+2018-03-15 09:02:49,573 1 INFO 8096_con_co odoo.addons.base.ir.ir_http: Generating routing map
+2018-03-15 09:02:50,271 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "GET /web?debug HTTP/1.1" 200 -
+2018-03-15 09:02:50,577 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,sales_team,sale,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 09:02:50,631 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 09:02:50,702 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-03-15 09:02:50,704 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 09:02:50,755 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 09:02:50,756 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-03-15 09:02:50,786 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-03-15 09:02:50,795 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2018-03-15 09:02:50,796 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-03-15 09:02:50,802 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-03-15 09:02:50,807 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-03-15 09:02:50,845 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 09:02:50,863 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-03-15 09:02:50,963 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:50] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 09:02:51,193 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:51] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 -
+2018-03-15 09:02:51,284 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:02:51] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-03-15 09:03:40,868 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:03:40] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:04:30,897 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:04:30] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:05:20,918 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:05:20] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:06:10,953 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:06:10] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:07:00,982 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:00] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-03-15 09:07:19,544 1 INFO ? odoo.service.server: Initiating shutdown
+2018-03-15 09:07:19,544 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-03-15 09:07:22,638 1 INFO ? odoo: Odoo version 11.0-20180122
+2018-03-15 09:07:22,639 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2018-03-15 09:07:22,639 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/11.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons']
+2018-03-15 09:07:22,639 1 INFO ? odoo: database: odoo@172.17.0.2:5432
+2018-03-15 09:07:22,646 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-03-15 09:07:22,722 1 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-03-15 09:07:24,065 1 INFO ? odoo.http: HTTP Configuring static files
+2018-03-15 09:07:24,079 1 INFO 8096_con_co odoo.modules.loading: loading 1 modules...
+2018-03-15 09:07:24,095 1 INFO 8096_con_co odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-03-15 09:07:24,112 1 INFO 8096_con_co odoo.modules.loading: loading 33 modules...
+2018-03-15 09:07:24,173 1 WARNING 8096_con_co odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not installed. Try: pip install phonenumbers.
+2018-03-15 09:07:24,725 1 INFO 8096_con_co odoo.modules.registry: module go_inside: creating or updating database tables
+2018-03-15 09:07:24,730 1 INFO 8096_con_co odoo.modules.loading: loading go_inside/views/views.xml
+2018-03-15 09:07:24,732 1 INFO 8096_con_co odoo.modules.loading: loading go_inside/views/templates.xml
+2018-03-15 09:07:24,798 1 INFO 8096_con_co odoo.modules.loading: 33 modules loaded in 0.69s, 6 queries
+2018-03-15 09:07:25,244 1 INFO 8096_con_co odoo.addons.base.ir.ir_model: Deleting 806@ir.ui.view (go_inside.go_inside_change_list_product)
+2018-03-15 09:07:25,264 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [9430]
+2018-03-15 09:07:25,277 1 INFO 8096_con_co odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [806]
+2018-03-15 09:07:25,302 1 INFO 8096_con_co odoo.modules.loading: Modules loaded.
+2018-03-15 09:07:25,309 1 INFO 8096_con_co odoo.addons.base.ir.ir_http: Generating routing map
+2018-03-15 09:07:26,048 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "GET /web?debug HTTP/1.1" 200 -
+2018-03-15 09:07:26,397 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,barcodes,web_planner,stock,web_editor,point_of_sale,portal,account,account_bank_statement_import,auth_signup,base_import,iap,payment,payment_transfer,sales_team,sale,web_diagram,web_kanban_gauge,web_settings_dashboard HTTP/1.1" 200 -
+2018-03-15 09:07:26,448 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-03-15 09:07:26,535 1 INFO ? werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-03-15 09:07:26,537 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-03-15 09:07:26,580 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /mail/client_action HTTP/1.1" 200 -
+2018-03-15 09:07:26,596 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-03-15 09:07:26,599 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-03-15 09:07:26,602 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2018-03-15 09:07:26,636 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-03-15 09:07:26,637 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-03-15 09:07:26,645 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-03-15 09:07:26,693 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-03-15 09:07:26,726 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-03-15 09:07:26,840 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:26] "POST /web/action/load HTTP/1.1" 200 -
+2018-03-15 09:07:27,068 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:27] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 -
+2018-03-15 09:07:27,180 1 INFO 8096_con_co werkzeug: 172.17.0.1 - - [15/Mar/2018 09:07:27] "POST /web/dataset/search_read HTTP/1.1" 200 -
