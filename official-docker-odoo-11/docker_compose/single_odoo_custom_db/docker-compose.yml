@@ -1,0 +1,22 @@
+version: "3"
+services:
+  db:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_USER=bay_di
+      - POSTGRES_PASSWORD=bay_di
+  web:
+    # build . mean build and get created image for this service use Dockerfile in it
+    image: odoo:11.0
+    depends_on:
+      - db
+    ports: 
+      - "8090:8069"
+    volumes:
+      # to use log file, create odoo.log and set full privilege ( chmod 777) for it in host machine
+      - ../../config/single_odoo_custom_db:/etc/odoo
+      - ../../addons/single_odoo_custom_db:/mnt/extra-addons
+    # update addons command
+    command: ["-u", "go_inside"]
+
+  
