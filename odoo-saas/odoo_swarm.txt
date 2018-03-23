@@ -1,0 +1,6 @@
+deploy odoo to cluster
+
+1. create overlay network
+2. create db service named 'db' connect to overlay network
+3. access bash of db service, create role odoo with login,createdb,create user with password 'odoo' and create db odoo
+4. create odoo_11 service connect to overlay network with option -e db=db
