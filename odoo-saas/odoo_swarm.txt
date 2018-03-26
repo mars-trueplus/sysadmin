@@ -1,6 +1,39 @@
 deploy odoo to cluster
 
+0. Access to swarm manager 
+$ docker-machine ssh vm1
+
 1. create overlay network
+$ docker network create --driver overlay saas_network
+
 2. create db service named 'db' connect to overlay network
+$ docker service create --name db --network saas_network postgres:9.4
+
 3. access bash of db service, create role odoo with login,createdb,create user with password 'odoo' and create db odoo
-4. create odoo_11 service connect to overlay network with option -e db=db
+$ docker exec -it <db service name> bash
+$ psql -U postgres
+$ create role odoo with login creatdb createrole password 'odoo';
+$ create database odoo owner odoo;
+
+4. create folder structure below for machine:
+ /
+ 	odoo
+ 		datadir
+ 		config
+ 			odoo.conf
+ 		log
+ 			odoo.log
+ 		addons
+ *** note ***
+ datadir folder must has full privileges (read, write, execute)
+
+5. create odoo_11 service connect to overlay network with option -e db=db
+
+$ docker service create \
+--name odoo_11 \
+--network saas_network \
+--publish published=8090,target=8069 \
+--mount type=bind,src=/odoo/config,dst=/etc/odoo \
+--mount type=bind,src=/odoo/addons,dst=/mnt/extra-addons \
+--mount type=bind,src=/odoo/datadir,dst=/var/lib/odoo \
+-e db=db odoo:11.0
