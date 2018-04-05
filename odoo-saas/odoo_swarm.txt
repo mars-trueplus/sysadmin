@@ -29,22 +29,13 @@ $ create database odoo owner odoo;
  	[options]
 	addons_path = /mnt/extra-addons
 	data_dir = /var/lib/odoo
-	db_host = 192.168.99.100
+	db_host = 192.168.99.100 ; ip of db host
 	db_port = 5500
 	db_user = odoo
 	db_password = odoo
  datadir folder must has full privileges (read, write, execute)
 
-5. create odoo_11 service connect to overlay network with option -e db=db
-
-$ docker service create \
---name odoo_11 \
---network saas_network \
---publish published=8090,target=8069 \
---mount type=bind,src=/odoo/config,dst=/etc/odoo \
---mount type=bind,src=/odoo/addons,dst=/mnt/extra-addons \
---mount type=bind,src=/odoo/datadir,dst=/var/lib/odoo \
--e db=db odoo:11.0
+5. create odoo_11 service 
 
 $ docker service create \
 --name odoo_11 \
